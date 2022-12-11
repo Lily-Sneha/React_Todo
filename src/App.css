@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  top: 0;
+  bottom: 0;
+}
+
+body {
+  text-align: center;
+  margin: 0 60px 0 60px;
+}
+
+input {
+  padding: 7px;
+  border: 1px rgb(224, 219, 219);
+  /* background-color: rgb(145 144 144 / 53%); */
+  background-color: rgb(248 240 240 / 96%);
+  text-align: center;
+}
+
+button {
+  width: 60px;
+  padding: 7px;
+  margin: 0 0 0 15px;
+  border: 1px solid white;
+  background-color: rgb(163, 229, 248);
+  cursor: pointer;
+}
+
+h3.task-list-header {
+  border: 1px solid white;
+  background-color: rgb(163, 229, 248);
+  width: 300px;
+  height: 35px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+}
+
+.completed-task-name {
+  font-size: 13px;
+}
+
+.App {
+  text-align: center;
+  background-color: #358b8e;
+  width: 70%;
+}
+
+.task-name {
+  height: 18px;
+}
+
+.edit-img {
+  /* margin-top: 0px; */
+  cursor: pointer;
+}
+
+
+.tasks-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.task-list-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 35px;
+  border: 1px solid white;
+  background-color: rgb(163, 229, 248);
+  padding-top: 5px;
+margin-bottom: 10px;
+}
+
+.task-list-item img {
+  height: 18px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.task-list .task-name {
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.task-list {
+  margin: 0 0 20px 20px;
+}
+
+.completed-task {
+  margin: 0 0 0 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: end;
+  column-gap: 10px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: end;
+}
+
+/* #################### state ################# */
+
+.state-div p:active {
+  background-color: red;
+}
